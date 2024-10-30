@@ -20,5 +20,7 @@ if (meth ==='plus'){
     meth = 'undefined'
 }else if(meth === 'minus'){
     let nowNumb=document.getElementById('num_display').value
+    document.getElementById('num_display').value = parseInt(currentValue)-(parseInt(nowNumb))
+    meth = 'undefined'
 }
 })
