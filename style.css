@@ -1,5 +1,5 @@
 #calculator{
-
+    width: 206px;
     margin: 100px;
 }
 .row{
@@ -32,17 +32,23 @@
 }
 #action_section{
     width: 53px;
-    height: 255px;
+    height: 203px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 #num_display{
+    border: 1px solid black;
     box-sizing: border-box;
     height: 50px;
     width: 153px;
+    margin-right: 1.5px;
 }
 #main_section{
     display: flex;
+}
+#value_display{
+    display: flex;
+    margin-bottom: 1px;
 }

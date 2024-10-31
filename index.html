@@ -12,7 +12,12 @@
 
 <body id="back">
 <div id="calculator">
-    <label><input type="text" id="num_display"></label>
+    <div id="value_display">
+        <label><input type="text" id="num_display"></label>
+        <div class="number" id="result">
+            =
+        </div>
+    </div>
     <div id="main_section">
         <div id="button_section">
             <div id="first_row" class="row">
@@ -56,19 +61,16 @@
         </div>
         <div id="action_section">
             <div class="number" id="divide">
-                /
+                ÷
             </div>
             <div class="number" id="multiply">
-                *
+                ×
             </div>
             <div class="number" id="plus">
                 +
             </div>
             <div class="number" id="minus">
                 -
-            </div>
-            <div class="number" id="result">
-                =
             </div>
         </div>
     </div>
